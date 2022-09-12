@@ -1,100 +1,104 @@
 <!DOCTYPE html>
-<div lang="ru"></div>
-<head>
-    <title>Гиперссылка</title>
-  </head>
+<html lang="ru">
 
-  <body>
-    <ol> 
-      <li><a href=”http://example.com/”>example.com</a></li>
-      <li><a href=”https://example.com/”>example.com</a><a id="top"></a></li>
-      <li><a href="ftp://example.com/Temp/file.txt">download</a></li>
-      <li><a href="ftp://student:123@example.com/Temp/file.txt">username and pass</a></li>
-      <li><a href="http://company.com/page#about">Cсылка на фрагмент другого сайта</a></li>
-      <li><a href="#top">Наверх</a></li>
-      <li><a href="https://http://example.com/about?page=1&perpage=20">ссылка с двумя параметрами</a></li>
-      <li><ol> 
-            <li><a href="http://example.com/news" title="Новостная лента">Новости</a></li> 
-            <li><a href="http://example.com/about" title="Узнать о нас больше">О компании</a></li> 
-            <li><a href="http://example.com/contacts" title="С нами связаться">Контакты</a></li> 
-          </ol></li>
-      <li><a>https://example.com/</a></li>
-      <li><a href="">Каталог</a></li>
-      <li><a href="http://example.com" rel="nofollow"> Cсылка, по которой запрещен переход поисковикам</a></li>
-      <li><a href="http://example.com" rel="nofollow" rel= "noindex"> Запрещенная для индексации поисковиками;</a></li>
-      <li>На нашем сайте можно узнать все о <a href="http://example.com/about" title="Узнать о нас больше">нас</a></li>
-      <li><a href="http://example.com"><img src="image.jpg" width="50" height="50" alt="Пример"></a></li>
-      <li><p>Нажмите на цветок</p>
-        <img src = "image.jpg" usemap = "#figura" alt = "не загрузилось" >
-        <map name = "figura" >
-          <area shape = "rect" coords = "1050,815,1051,69" href = "http://example.com/contacts" alt = "квадрат" >
-          <area shape = "circle" coords = "1101,821,229" href = "http://example.com/contacts" alt = "круг" >
-        </map></li>
-        <li><a href=”about”>относительная на страницу в текущем каталоге</a></li>
-        <li><a href=”about/files.html”> относительная на страницу в каталоге about</a></li>
-        <li><a href=”../higher.html”> относительная на страницу в каталоге уровнем выше текущего</a> </li>
-        <li><a href=”../../higher_and_higher.html”>относительная на страницу в каталоге двумя уровнями выше</a></li>
-        <li><a href=”/”>сокращенная на главную</a></li>
-        <li><a href=”/news/12”>сокращенная ссылку на внутреннюю</a></li>
-      </ol>
-      <h1>Форма</h1><br>
-       <label>
-        Введите имя:<br />
-        <input name="field-name-1"
-          value="имя" />
-      </label><br>
-        <label>
-          Текстовое поле email:<br />
-          <input name="field-email"
-            type="email"
-            placeholder="Введите вашу почту" />
-        </label><br>
-<label>
-  Текстовое поле даты:<br />
-  <input name="field-date"
-    value="2021-09-01"
-    type="date" />
-</label><br>
-Пол:<br />
-  <label><input type="radio" checked="checked"
-    name="radio-group-1" value="Женский" />
-    Женский</label><br>
-  <label><input type="radio"
-    name="radio-group-1" value="Мужской" />
-    Мужской</label><br>
-<label>
-  Мн выбор из списка:
-  <br />
-  <select name="field-name-4[]"
-    multiple="multiple">
-    <option value="Бессмертие">Бессмертие</option>
-    <option value="Полет" selected="selected">Полет</option>
-    <option value="Прохождение сквозь стены" selected="selected">Прохождение сквозь стены</option>
-  </select>
-</label><br>
-Конечности:<br />
-  <label><input type="radio" checked="checked"
-    name="radio-group-1" value="1" />
-    1</label><br>
-  <label><input type="radio"
-    name="radio-group-1" value="2" />
-    2</label><br>
-    <label><input type="radio"
-      name="radio-group-1" value="3" />
-      3</label><br>
-      <label><input type="radio"
-        name="radio-group-1" value="4" />
-        4</label><br>
-      <label>
-        Введите Биографию:<br />
-        <textarea name="field-name-2">Биография</textarea>
-      </label><br>
-      
-        <label><input type="checkbox" checked="checked"
-          name="check-1" /><br>
-          C контрактом ознакомлен(а)</label>
-          Кнопка отправки формы <br>
-            <input type="submit" value="Отправить" />
-          </form><br>
-  </body>
+<head>
+	<meta charset="utf-8" />
+	<title>message</title>
+</head>
+
+<body>
+	<ol>
+		<li><a href=”http://example.com/”>example.com</a></li>
+		<li><a href=”https://example.com/”>example.com</a>
+			<a id="top"></a>
+		</li>
+		<li><a href="ftp://example.com/Temp/file.txt">download</a></li>
+		<li><a href="ftp://student:123@example.com/Temp/file.txt">username and pass</a></li>
+		<li><a href="http://company.com/page#about">Cсылка на фрагмент другого сайта</a></li>
+		<li><a href="#top">Наверх</a></li>
+		<li><a href="https://http://example.com/about?page=1&perpage=20">ссылка с двумя параметрами</a></li>
+		<li>
+			<ol>
+				<li><a href="http://example.com/news" title="Новостная лента">Новости</a></li>
+				<li><a href="http://example.com/about" title="Узнать о нас больше">О компании</a></li>
+				<li><a href="http://example.com/contacts" title="С нами связаться">Контакты</a></li>
+			</ol>
+		</li>
+		<li><a>https://example.com/</a></li>
+		<li><a href="">Каталог</a></li>
+		<li><a href="http://example.com" rel="nofollow"> Cсылка, по которой запрещен переход поисковикам</a></li>
+		<li><a href="http://example.com" rel="noindex"> Запрещенная для индексации поисковиками;</a></li>
+		<li>На нашем сайте можно узнать все о <a href="http://example.com/about" title="Узнать о нас больше">нас</a></li>
+		<li>
+			<a href="http://example.com"><img src="image.jpg" width="50" height="50" alt="Пример"></a>
+		</li>
+		<li>
+			<p>Нажмите на цветок</p> <img src="image.jpg" usemap="#figura" alt="не загрузилось">
+			<map name="figura">
+				<area shape="rect" coords="1050,800,1051,850" href="http://example.com/contacts" alt="квадрат">
+				<area shape="circle" coords="1101,821,229" href="http://example.com/contacts" alt="круг"> </map>
+		</li>
+		<li><a href=”about”>относительная на страницу в текущем каталоге</a></li>
+		<li><a href=”about/files.html”> относительная на страницу в каталоге about</a></li>
+		<li><a href=”../higher.html”> относительная на страницу в каталоге уровнем выше текущего</a> </li>
+		<li><a href=”../../higher_and_higher.html”>относительная на страницу в каталоге двумя уровнями выше</a></li>
+		<li><a href=”/”>сокращенная на главную</a></li>
+		<li><a href=”/news/12”>сокращенная ссылку на внутреннюю</a></li>
+	</ol>
+	<form action="/" method="POST">
+		<h1>Форма</h1>
+		<br>
+		<label> Введите имя:
+			<br />
+			<input name="field-name-1" value="имя" /> </label>
+		<br>
+		<label> Текстовое поле email:
+			<br />
+			<input name="field-email" type="email" placeholder="Введите вашу почту" /> </label>
+		<br>
+		<label> Текстовое поле даты:
+			<br />
+			<input name="field-date" value="2021-09-01" type="date" /> </label>
+		<br> Пол:
+		<br />
+		<label>
+			<input type="radio" checked="checked" name="radio-group-1" value="Женский" /> Женский</label>
+		<br>
+		<label>
+			<input type="radio" name="radio-group-1" value="Мужской" /> Мужской</label>
+		<br>
+		<label> Мн выбор из списка:
+			<br />
+			<select name="field-name-4[]" multiple="multiple">
+				<option value="Бессмертие">Бессмертие</option>
+				<option value="Полет" selected="selected">Полет</option>
+				<option value="Прохождение сквозь стены" selected="selected">Прохождение сквозь стены</option>
+			</select>
+		</label>
+		<br> Конечности:
+		<br />
+		<label>
+			<input type="radio" checked="checked" name="radio-group-1" value="1" /> 1</label>
+		<br>
+		<label>
+			<input type="radio" name="radio-group-1" value="2" /> 2</label>
+		<br>
+		<label>
+			<input type="radio" name="radio-group-1" value="3" /> 3</label>
+		<br>
+		<label>
+			<input type="radio" name="radio-group-1" value="4" /> 4</label>
+		<br>
+		<label> Введите Биографию:
+			<br />
+			<textarea name="field-name-2">Биография</textarea>
+		</label>
+		<br>
+		<label>
+			<input type="checkbox" checked="checked" name="check-1" />
+			<br> C контрактом ознакомлен(а)</label> Кнопка отправки формы
+		<br>
+		<input type="submit" value="Отправить" /> </form>
+	<br> </body>
+
 </html>
