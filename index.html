@@ -7,7 +7,7 @@
   <body>
     <ol> 
       <li><a href=”http://example.com/”>example.com</a></li>
-      <li><a href=”https://example.com/”>example.com</a><a name="top"></a></li>
+      <li><a href=”https://example.com/”>example.com</a><a id="top"></a></li>
       <li><a href="ftp://example.com/Temp/file.txt">download</a></li>
       <li><a href="ftp://student:123@example.com/Temp/file.txt">username and pass</a></li>
       <li><a href="http://company.com/page#about">Cсылка на фрагмент другого сайта</a></li>
@@ -21,13 +21,13 @@
       <li><a>https://example.com/</a></li>
       <li><a href="">Каталог</a></li>
       <li><a href="http://example.com" rel="nofollow"> Cсылка, по которой запрещен переход поисковикам</a></li>
-      <li><a href="http://example.com" rel="nofollow"><noindex> Запрещенная для индексации поисковиками; </noindex></a></li>
+      <li><a href="http://example.com" rel="nofollow" rel= "noindex"> Запрещенная для индексации поисковиками;</a></li>
       <li>На нашем сайте можно узнать все о <a href="http://example.com/about" title="Узнать о нас больше">нас</a></li>
       <li><a href="http://example.com"><img src="image.jpg" width="50" height="50" alt="Пример"></a></li>
       <li><p>Нажмите на цветок</p>
-        <img src = "image.jpg" usemap = "#figura" >
+        <img src = "image.jpg" usemap = "#figura" alt = "не загрузилось" >
         <map name = "figura" >
-          <area shape = "rect" coords = "1051,815,44,69" href = "http://example.com/contacts" alt = "квадрат" >
+          <area shape = "rect" coords = "1050,815,1051,69" href = "http://example.com/contacts" alt = "квадрат" >
           <area shape = "circle" coords = "1101,821,229" href = "http://example.com/contacts" alt = "круг" >
         </map></li>
         <li><a href=”about”>относительная на страницу в текущем каталоге</a></li>
